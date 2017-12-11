@@ -1,0 +1,19 @@
+.light-container {
+    background-color: #646464;
+    display: inline-block;
+    margin: auto -.2em;
+}
+
+image {
+    padding: 0;
+    margin: 0;
+}
+
+.letter-div {
+    text-align: center;
+}
+
+.letter {
+    font-family: 'Just Another Hand', Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}

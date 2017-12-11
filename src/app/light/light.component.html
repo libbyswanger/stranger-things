@@ -1,0 +1,9 @@
+<link href='http://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+
+<div class='light-container' (window:keydown)="registerKeyDown($event.key)">
+  <div *ngIf="!light.on"><img src='./../../../assets/off.svg' alt='light-off'/></div>
+  <div *ngIf="light.on"> <img src="./../../../assets/{{light.color}}.svg" alt="{{light.color}}light" /> </div>
+  <div class='letter-div'>
+    <label class='letter'>{{ light.letter }}</label>
+  </div>
+</div>
