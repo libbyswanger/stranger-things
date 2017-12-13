@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Light } from '../light'
 import { Input } from '@angular/core';
-import { setTimeout } from 'timers';
+import { setTimeout } from 'timers-browserify';
 
 @Component({
-  selector: 'app-light',
+  selector: 'st-light',
   templateUrl: './light.component.html',
   styleUrls: ['./light.component.css']
 })
