@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { LIGHTS } from './light-data';
 
 @Component({
-  selector: 'st-root',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
